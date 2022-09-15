@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ariful</h1>
-<h3 align="center">A passionate frontend developer from Bangladesh</h3>
+<h3 align="center">I'm a Detail-oriented individual and software engineer based in Dhaka. Currently pursuing
+BSc. in Computer Science and Engineering. I specialize in creating interactive experiences
+and functional full-stack web apps. Seeking opportunities where I can use my knowledge in
+software development and further learn new things and grow as a Software Engineer.</h3>
 
 # 💫 About Me:
 👨‍💻 Currently working on Meeseeks<br>🌱 I'm currently learning React<br>💭 Ask me about HTML, CSS, Javascript and Python<br>⚡ I love creating new things.
