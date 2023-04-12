@@ -1,8 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ariful</h1>
-<h3 align="center">I'm a Detail-oriented individual and software engineer based in Dhaka. Currently pursuing
-BSc. in Computer Science and Engineering. I specialize in creating interactive experiences
-and functional full-stack web apps. Seeking opportunities where I can use my knowledge in
-software development and further learn new things and grow as a Software Engineer.</h3>
+<h3 align="center">I am a technology enthusiast with experience in various fields, including data management, software development, and IT strategy. As a Senior Data Management Assistant at icddr,b, I am responsible for evaluating and approving research protocols, entering data into systems, and creating reports based on protocols and grants. During my internship at Walton Hi-Tech Industries PLC, I worked on enhancing the usability and scalability of an existing system using React, Node.js, and MySQL. As a Director of Technology at Kloudoop Limited, I oversaw and evaluated all technological activities, implemented IT policies and systems, and identified technology requirements for various departments. My diverse experience has allowed me to develop a broad skillset in areas such as data analysis, software development, and IT management. I am passionate about using technology to solve complex problems and am committed to delivering results that meet the needs of my clients and stakeholders.</h3>
 
 # 💫 About Me:
 👨‍💻 Currently working on Meeseeks<br>🌱 I'm currently learning React<br>💭 Ask me about HTML, CSS, Javascript and Python<br>⚡ I love creating new things.
