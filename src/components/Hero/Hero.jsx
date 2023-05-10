@@ -6,7 +6,7 @@ const Hero = () => {
       <article>
         <div className='flex justify-center items-center my-4'>
           <img
-            className='object-cover w-1/4 rounded-md'
+            className='object-cover w-1/4 max-w-[500px] rounded-md'
             src='https://i.ibb.co/Lp3RcCc/Md-Ariful-Islam-B-W-Squire.png'
             alt="Ariful Islam's Picture"
           />
