@@ -26,7 +26,7 @@ const Hero = () => {
           <li className='mt-2'>
             Learn
             <NavLink
-              to={'/'}
+              to={'/about'}
               className='font-bold rounded-md transition-all hover:border-b-2
               hover:shadow-slate-300  hover:shadow-sm hover:text-slate-600 hover:transition-all'
             >

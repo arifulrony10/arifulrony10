@@ -26,11 +26,13 @@ const Navbar = () => {
   ];
   return (
     <div>
-      <ul className='flex justify-center items-center mt-5'>
+      <div className='mx-auto w-1/2 pt-1 bg-slate-800 rounded'></div>
+      <ul className='flex justify-center items-center my-4'>
         {menuLinks.map((link) => (
           <NavBarLink key={link.id} navlink={link} />
         ))}
       </ul>
+      <div className='mx-auto w-1/2 pt-1 bg-slate-800 rounded'></div>
     </div>
   );
 };
