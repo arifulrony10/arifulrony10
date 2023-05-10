@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      oswald: ['Oswald', 'sans-serif'],
-      openSans: ['Open Sans', 'sans-serif'],
+      kanit: ['Kanit', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
     },
   },
   plugins: [],

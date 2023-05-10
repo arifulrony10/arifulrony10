@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer>
+    <footer className='font-kanit'>
       <div className='mx-auto w-1/2 pt-1 bg-slate-800 rounded'></div>
       <ul className='flex gap-5 justify-center py-2'>
         <li> &copy; Md. Ariful Islam</li>

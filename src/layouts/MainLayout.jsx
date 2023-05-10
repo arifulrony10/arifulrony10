@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer';
 
 const MainLayout = () => {
   return (
-    <div className='w-screen h-screen max-w-[80%] m-auto'>
+    <div className='w-screen h-screen max-w-[80%] m-auto font-inter'>
       <div className='min-h-[20vh]'>
         <TopHeader />
         <Navbar />
