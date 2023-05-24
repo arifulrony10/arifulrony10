@@ -1,29 +1,26 @@
 const Footer = () => {
   return (
-    <footer className='font-kanit'>
+    <footer className='font-kanit my-4'>
       <div className='mx-auto w-1/2 pt-1 bg-slate-800 rounded'></div>
       <ul className='flex gap-5 justify-center py-2'>
         <li> &copy; Md. Ariful Islam</li>
         <li> | </li>
         <li
-          className='rounded-md transition-all hover:border-b-2
-              hover:shadow-slate-300  hover:shadow-sm hover:text-slate-600 hover:transition-all'
+          className='hover:text-slate-500 px-2 transition-all'
         >
-          <a href='https://github.com/arifulrony10'>Github</a>
+          <a href='https://github.com/arifulrony10' target="_blank">Github</a>
         </li>
         <li> | </li>
         <li
-          className='rounded-md transition-all hover:border-b-2
-              hover:shadow-slate-300  hover:shadow-sm hover:text-slate-600 hover:transition-all'
+          className='hover:text-slate-500 px-2 transition-all'
         >
-          <a href='https://www.linkedin.com/in/arifulrony10/'>Linkedin</a>
+          <a href='https://www.linkedin.com/in/arifulrony10/' target="_blank">Linkedin</a>
         </li>
         <li> | </li>
         <li
-          className='rounded-md transition-all hover:border-b-2
-              hover:shadow-slate-300  hover:shadow-sm hover:text-slate-600 hover:transition-all'
+          className='hover:text-slate-500 px-2 transition-all'
         >
-          <a href='mailto:hi@ariful.me'>E-Mail</a>
+          <a href='mailto:hi@ariful.me' target="_blank">E-Mail</a>
         </li>
       </ul>
     </footer>
