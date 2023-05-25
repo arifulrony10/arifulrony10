@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
         <p>
           Hello, I'm <b>Md. Ariful Islam</b> A software engineer based in Dhaka.
-          Currently working at Kloudoop Limited as Director of Technology. I
+          Currently working as Senior Data Management Assistant at <a href="https://www.icddrb.org/" target='_blank' className="underline">icddr,b</a>. I
           specialize in creating interactive experiences and functional
           full-stack web apps. I don’t like to define myself by the work I’ve
           done. I define myself by the work I want to do. Skills can be taught,
@@ -49,7 +49,7 @@ const Hero = () => {
           <li className='mt-2'>
             View my
             <NavLink
-              to={'/resume'}
+              to={'https://drive.google.com/file/d/1hhPHNqLxclljIFO_HKA6IsJg9lMiLDQc/view?usp=share_link'}
               className='font-bold rounded-md transition-all hover:border-b-2
               hover:shadow-slate-300  hover:shadow-sm hover:text-slate-600 hover:transition-all'
             >

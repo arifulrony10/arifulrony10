@@ -22,8 +22,8 @@ const Projects = () => {
   }, [])
 
 
-  return <div>
-    <h2>Projects</h2>
+  return <div className="">
+    <h2 className="font-bold text-center my-5">Projects</h2>
     <div className="grid md:grid-cols-3 gap-5">
     {
       projects &&

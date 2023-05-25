@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      url: 'resume',
+      url: 'https://drive.google.com/file/d/1hhPHNqLxclljIFO_HKA6IsJg9lMiLDQc/view?usp=share_link',
       title: 'Resume',
     },
   ];

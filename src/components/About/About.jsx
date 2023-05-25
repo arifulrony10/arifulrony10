@@ -90,6 +90,7 @@ const About = () => {
   ];
   return (
     <div className=''>
+          <h2 className="font-bold text-center my-5">About</h2>
       {aboutList.map((list) => (
         <AboutList key={list.id} aboutList={list} />
       ))}
