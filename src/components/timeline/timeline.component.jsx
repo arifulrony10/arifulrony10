@@ -43,9 +43,9 @@ const TimelineComponent = () => {
           </div>
 
           <p className='fw-normal'>
-            A global health research institute in Dhaka, Bangladesh, dedicated
-            to innovative scientific research to solve public health challenges
-            through various methodologies.
+            icddr,b is a global health research institute in Dhaka, Bangladesh,
+            dedicated to innovative scientific research to solve public health
+            challenges through various methodologies.
           </p>
           <ul>
             <li>
