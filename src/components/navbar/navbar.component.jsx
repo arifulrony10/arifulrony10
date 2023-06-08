@@ -1,10 +1,11 @@
 import { Link, NavLink } from 'react-router-dom';
+import { HiOutlineExternalLink } from 'react-icons/hi';
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-transparent'>
+    <nav className='navbar navbar-expand-lg navbar-light bg-transparent fw-bold'>
       <div className='container'>
-        <Link to={'/'} className='text-center rm-title navbar-brand'>
+        <Link to={'/'} className='text-center rm-title navbar-brand fw-bold'>
           Md. Ariful Islam
         </Link>
         <button
@@ -59,7 +60,7 @@ const Navbar = () => {
                 rel='noopener noreferrer'
                 className='nav-link'
               >
-                Resume
+                Resume <HiOutlineExternalLink />
               </NavLink>
             </li>
           </ul>

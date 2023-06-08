@@ -9,7 +9,10 @@ const ProjectPage = () => {
         <div className='row gap-3 flex-wrap'>
           {projectsData &&
             projectsData.map((project) => (
-              <ProjectComponent key={project.id} project={project} />
+              <ProjectComponent
+                key={`${project?.id} + ${project?.title}`}
+                project={project}
+              />
             ))}
         </div>
       </div>
