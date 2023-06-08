@@ -22,7 +22,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='March 2013'
-          iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
+          iconStyle={{ background: '#EA8923', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
           <div className='d-md-flex'>
@@ -64,7 +64,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='June 2022'
-          iconStyle={{ background: 'rgb(25, 135, 84)', color: '#fff' }}
+          iconStyle={{ background: '#13489E', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
           <div className='d-md-flex'>
@@ -99,7 +99,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='Jan 2021'
-          iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
+          iconStyle={{ background: '#47C2ED', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
           <div className='d-md-flex'>
@@ -143,7 +143,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2023'
-          iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
+          iconStyle={{ background: '#034EA1', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
           <div className='d-md-flex'>
@@ -164,7 +164,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2017'
-          iconStyle={{ background: 'rgb(25, 135, 84)', color: '#fff' }}
+          iconStyle={{ background: '#FF0000', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
           <div className='d-md-flex'>
@@ -185,7 +185,7 @@ const TimelineComponent = () => {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2015'
-          iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
+          iconStyle={{ background: '#FF0000', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
           <div className='d-md-flex'>
