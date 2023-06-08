@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className='container'>
-      <div className='d-md-flex flex-sm-col flex-wrap justify-content-between align-items-center py-3 mt-4 border-top border-3'>
+      <div className='d-md-flex flex-sm-col flex-wrap justify-content-between align-items-center py-3 border-top border-3'>
         <div className='col-md-4 d-flex justify-content-center align-items-center'>
           <span className='mb-md-0 text-muted'>© Md. Ariful Islam</span>
         </div>
