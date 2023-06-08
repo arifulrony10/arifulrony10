@@ -43,7 +43,7 @@ const HomePage = () => {
                 to={'/about'}
                 className='text-muted text-decoration-none fw-bold'
               >
-                about
+                ./about
               </Link>{' '}
               me.
             </li>
@@ -53,7 +53,7 @@ const HomePage = () => {
                 to={'/about'}
                 className='text-muted text-decoration-none fw-bold'
               >
-                projects
+                ./projects
               </Link>
               .
             </li>
@@ -65,7 +65,7 @@ const HomePage = () => {
                 rel='noopener noreferrer'
                 className='text-muted text-decoration-none fw-bold'
               >
-                resume
+                ./resume
               </Link>
               .
             </li>

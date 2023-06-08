@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-light bg-transparent fw-bold'>
       <div className='container'>
         <Link to={'/'} className='text-center rm-title navbar-brand fw-bold'>
-          Md. Ariful Islam
+          /ariful
         </Link>
         <button
           className='navbar-toggler'
@@ -31,7 +31,7 @@ const Navbar = () => {
                 className='nav-link'
                 aria-current='page'
               >
-                Home
+                ../home
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 to={'/about'}
                 className='nav-link'
               >
-                About
+                ./about
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -49,7 +49,7 @@ const Navbar = () => {
                 to={'/projects'}
                 className='nav-link'
               >
-                Projects
+                ./projects
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 rel='noopener noreferrer'
                 className='nav-link'
               >
-                Resume <HiOutlineExternalLink />
+                ./resume <HiOutlineExternalLink />
               </NavLink>
             </li>
           </ul>

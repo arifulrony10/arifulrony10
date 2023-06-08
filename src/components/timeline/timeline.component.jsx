@@ -3,10 +3,6 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import kloudoopIcon from '../../assets/icons/kloudoop.svg';
-import waltonIcon from '../../assets/icons/walton.svg';
-import icddrbIcon from '../../assets/icons/icddrb.svg';
-import IconComponent from '../icon/icon.component';
 import { BsBriefcaseFill } from 'react-icons/bs';
 
 const TimelineComponent = () => {
