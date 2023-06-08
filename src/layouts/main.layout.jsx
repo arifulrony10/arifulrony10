@@ -5,15 +5,15 @@ import Footer from "../components/footer/footer.component";
 const MainLayout = () => {
   return (
     <div className="container-fluid">
-      <div className="row">
+      <header className="row">
         <Navbar />
-      </div>
-      <div className="container">
+      </header>
+      <main className="container">
         <Outlet />
-      </div>
-      <div className="row">
+      </main>
+      <footer className="row">
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 };

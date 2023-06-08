@@ -28,7 +28,7 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 to={"/"}
                 className="nav-link"
                 aria-current="page"
@@ -38,7 +38,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 to={"/about"}
                 className="nav-link"
               >
@@ -47,7 +47,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 to={"/projects"}
                 className="nav-link"
               >
@@ -56,7 +56,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 to={"/contact"}
                 className="nav-link"
               >
