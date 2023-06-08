@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-transparent fw-bold'>
       <div className='container'>
-        <Link to={'/'} className='text-center rm-title navbar-brand fw-bold'>
+        <Link
+          to={'/'}
+          className='text-center rm-title navbar-brand fw-bold fs-3'
+        >
           /ariful
         </Link>
         <button
