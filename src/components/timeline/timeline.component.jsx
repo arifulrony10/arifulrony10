@@ -89,12 +89,7 @@ const TimelineComponent = () => {
         >
           Kloudoop Limited
         </a>
-        <p className='fw-normal'>
-          Walton is one of the largest industries in Bangladesh. They have over
-          a hundred outlets across the country. Moreover, there are different
-          types of outlets. So, build a solution for the customer, using which
-          one can easily locate the nearest desired type of outlet.
-        </p>
+        <p className='fw-normal'></p>
         <ul>
           <li>
             Overseeing and evaluating all technological activities in accordance
