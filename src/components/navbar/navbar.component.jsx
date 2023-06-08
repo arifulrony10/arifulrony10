@@ -42,7 +42,7 @@ const Navbar = () => {
                 to={"/about"}
                 className="nav-link"
               >
-                Resume
+                About
               </NavLink>
             </li>
             <li className="nav-item">
@@ -60,7 +60,7 @@ const Navbar = () => {
                 to={"/contact"}
                 className="nav-link"
               >
-                Contact
+                Resume
               </NavLink>
             </li>
           </ul>

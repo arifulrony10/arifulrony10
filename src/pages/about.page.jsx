@@ -1,6 +1,10 @@
+import TimelineComponent from "../components/timeline/timeline.component";
+
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
-  )
-}
-export default AboutPage
+    <div>
+      <TimelineComponent />
+    </div>
+  );
+};
+export default AboutPage;
