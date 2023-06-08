@@ -95,7 +95,7 @@
     "id": 3,
     "title": "Personal Portfolio",
     "image": "https://i.ibb.co/5k2SKMq/portfolio.png",
-    "description": "A comprehensive website dedicated to the TV show \"Rick and Morty\" that provides:",
+    "description": "My personal portfolio website! Explore my achievements, skills, and creative projects. Let's connect and create something remarkable together.",
     "bullets": [
       {
         "id": 1,
@@ -103,7 +103,7 @@
       },
       {
         "id": 2,
-        "point": "Simple and minimal"
+        "point": "Simple and minimal design."
       },
       {
         "id": 3,
@@ -111,7 +111,11 @@
       },
       {
         "id": 4,
-        "point": "Optimized for mobile devices"
+        "point": "Used bootstrap and sass for responsive."
+      },
+      {
+        "id": 5,
+        "point": "Optimized for mobile devices."
       }
     ],
     "stacks": [

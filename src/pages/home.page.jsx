@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className='row my-md-5'>
-        <div className='col-md-12 d-flex justify-content-center align-items-center mx-auto text-center fs-3 heroLink'>
+        <div className='col-md-12 d-flex justify-content-center align-items-center mx-auto text-center fs-3 mt-auto heroLink'>
           <ul style={{ listStyle: 'none' }}>
             <li>
               Learn{' '}
