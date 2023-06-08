@@ -5,13 +5,13 @@ import Footer from '../components/footer/footer.component';
 const MainLayout = () => {
   return (
     <div className='container-fluid'>
-      <header className='row' style={{ minHeight: '10vh' }}>
+      <header className='row'>
         <Navbar />
       </header>
-      <main className='container' style={{ minHeight: '80vh' }}>
+      <main className='container'>
         <Outlet />
       </main>
-      <footer className='row' style={{ minHeight: '10vh' }}>
+      <footer className='row'>
         <Footer />
       </footer>
     </div>
