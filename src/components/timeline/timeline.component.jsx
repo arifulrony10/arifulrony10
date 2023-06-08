@@ -5,10 +5,19 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import { BsBriefcaseFill } from 'react-icons/bs';
 import { FaGraduationCap } from 'react-icons/fa';
+import icddrbLogo from '../../assets/icons/icddrb.svg';
+import waltonLogo from '../../assets/icons/walton.svg';
+import kloudoopLogo from '../../assets/icons/kloudoop.svg';
+import aiubLogo from '../../assets/icons/aiub.svg';
+import cambrianLogo from '../../assets/icons/cambrian.svg';
+
 const TimelineComponent = () => {
   return (
     <div>
-      <h3 className='text-center my-4 text-muted fs-2 fw-bold'>Experience</h3>
+      {/* EXPERIENCE */}
+      <h3 className='text-center my-4 text-muted fs-2 fw-bold'>
+        - Experience -
+      </h3>
       <VerticalTimeline>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -16,17 +25,22 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
-          <h3 className='vertical-timeline-element-title'>
-            Senior Data Management Assistant
-          </h3>
-          <a
-            href='https://icddrb.org'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            Research Administration, icddr,b
-          </a>
+          <div className='d-md-flex'>
+            <img src={icddrbLogo} alt='' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>
+                Senior Data Management Assistant
+              </h3>
+              <a
+                href='https://icddrb.org'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                Research Administration, icddr,b
+              </a>
+            </div>
+          </div>
 
           <p className='fw-normal'>
             A global health research institute in Dhaka, Bangladesh, dedicated
@@ -53,15 +67,20 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(25, 135, 84)', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
-          <h3 className='vertical-timeline-element-title'>Intern</h3>
-          <a
-            href='https://www.waltonhil.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            Software Development Team-IT, Walton Hi-Tech Industries PLC
-          </a>
+          <div className='d-md-flex'>
+            <img src={waltonLogo} alt='' className='mr-md-2' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>Intern</h3>
+              <a
+                href='https://www.waltonhil.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                Software Development Team-IT, Walton Hi-Tech Industries PLC
+              </a>
+            </div>
+          </div>
           <p className='fw-normal'>
             Walton is one of the largest industries in Bangladesh. They have
             over a hundred outlets across the country. Moreover, there are
@@ -83,17 +102,22 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
           icon={<BsBriefcaseFill />}
         >
-          <h3 className='vertical-timeline-element-title'>
-            Director of Technology
-          </h3>
-          <a
-            href='https://www.kloudoop.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            Kloudoop Limited
-          </a>
+          <div className='d-md-flex'>
+            <img src={kloudoopLogo} alt='' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>
+                Director of Technology
+              </h3>
+              <a
+                href='https://www.kloudoop.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                Kloudoop Limited
+              </a>
+            </div>
+          </div>
           <p className='fw-normal'></p>
           <ul>
             <li>
@@ -111,7 +135,10 @@ const TimelineComponent = () => {
           </ul>
         </VerticalTimelineElement>
       </VerticalTimeline>
-      <h3 className='text-center my-4 text-muted fs-2 fw-bold'>Education</h3>
+      {/* EDUCATION */}
+      <h3 className='text-center my-4 text-muted fs-2 fw-bold'>
+        - Education -
+      </h3>
       <VerticalTimeline>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -119,15 +146,20 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
-          <h3 className='vertical-timeline-element-title'>BSc in CSE</h3>
-          <a
-            href='https://www.aiub.edu/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            American International University-Bangladesh (AIUB)
-          </a>
+          <div className='d-md-flex'>
+            <img src={aiubLogo} alt='' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>BSc in CSE</h3>
+              <a
+                href='https://www.aiub.edu/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                American International University-Bangladesh (AIUB)
+              </a>
+            </div>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -135,15 +167,20 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(25, 135, 84)', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
-          <h3 className='vertical-timeline-element-title'>H.S.C</h3>
-          <a
-            href='https://www.cambrian.edu.bd/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            Cambrian School and College
-          </a>
+          <div className='d-md-flex'>
+            <img src={cambrianLogo} alt='' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>H.S.C</h3>
+              <a
+                href='https://www.cambrian.edu.bd/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                Cambrian School and College
+              </a>
+            </div>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -151,15 +188,20 @@ const TimelineComponent = () => {
           iconStyle={{ background: 'rgb(13, 110, 253)', color: '#fff' }}
           icon={<FaGraduationCap />}
         >
-          <h3 className='vertical-timeline-element-title'>S.S.C</h3>
-          <a
-            href='https://www.cambrian.edu.bd/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
-          >
-            Cambrian School and College
-          </a>
+          <div className='d-md-flex'>
+            <img src={cambrianLogo} alt='' />
+            <div className='d-flex flex-column justify-content-center align-items-canter'>
+              <h3 className='vertical-timeline-element-title'>S.S.C</h3>
+              <a
+                href='https://www.cambrian.edu.bd/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='vertical-timeline-element-subtitle text-decoration-none text-muted fs-6'
+              >
+                Cambrian School and College
+              </a>
+            </div>
+          </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
