@@ -1,19 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
-    <main style={{ minHeight: "80vh" }}>
-      <div className="row my-3">
-        <div className="col-md-6 d-flex flex-column justify-content-center align-item-center">
-          <h4>Hi, I'm</h4>
-          <h1>Md. Ariful Islam</h1>
-          <p className="text-justify">
+    <main style={{ minHeight: '80vh' }}>
+      <div className='row my-3 d-md-flex flex-md-row flex-column-reverse my-md-5'>
+        <div className='col-md-6 d-flex flex-column justify-content-center align-item-center fs-5'>
+          <h4 className='fs-3'>Hi, I'm</h4>
+          <h1 className='fs-1 fw-bold'>Md. Ariful Islam</h1>
+          <p className='text-justify'>
             A software engineer based in Dhaka. Currently working as Senior Data
-            Management Assistant at{" "}
+            Management Assistant at{' '}
             <a
-              href="https://icddrb.org"
-              target="_blank"
-              className="text-black link-underline-primary"
+              href='https://icddrb.org'
+              target='_blank'
+              className='text-black link-underline-primary'
+              rel='noopener noreferrer'
             >
               icddr,b
             </a>
@@ -24,35 +25,46 @@ const HomePage = () => {
             challenging myself and do interesting things that matter.
           </p>
         </div>
-        <div className="col-md-6 d-flex justify-content-center align-items-center">
+        <div className='col-md-6 d-flex justify-content-center align-items-center'>
           <img
-            src="https://i.ibb.co/Dz13Z4B/ariful.jpg"
-            alt=""
-            className="img-fluid rounded-pill"
-            style={{ maxHeight: "400px" }}
+            src='https://i.ibb.co/Lp3RcCc/Md-Ariful-Islam-B-W-Squire.png'
+            alt=''
+            className='img-fluid rounded-pill'
+            style={{ maxHeight: '400px' }}
           />
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-12 mx-auto text-center">
-          <ul style={{ listStyle: "none" }}>
+      <div className='row my-md-5'>
+        <div className='col-md-12 d-flex justify-content-center align-items-center mx-auto text-center fs-3'>
+          <ul style={{ listStyle: 'none' }}>
             <li>
-              Learn{" "}
-              <Link to={"/about"} className="text-dark link-underline-primary">
+              Learn{' '}
+              <Link
+                to={'/about'}
+                className='text-muted text-decoration-none fw-bold'
+              >
                 about
-              </Link>{" "}
+              </Link>{' '}
               me.
             </li>
-            <li className="my-2">
-              See my{" "}
-              <Link to={"/about"} className="text-dark link-underline-primary">
+            <li className='my-2'>
+              See my{' '}
+              <Link
+                to={'/about'}
+                className='text-muted text-decoration-none fw-bold'
+              >
                 projects
               </Link>
               .
             </li>
             <li>
-              Download my{" "}
-              <Link to={"/about"} className="text-dark link-underline-primary">
+              Download my{' '}
+              <Link
+                to={'https://ariful.tiiny.site/'}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-muted text-decoration-none fw-bold'
+              >
                 resume
               </Link>
               .

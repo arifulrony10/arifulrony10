@@ -1,30 +1,31 @@
-import "bootstrap/dist/css/bootstrap.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import MainLayout from "./layouts/main.layout";
-import HomePage from "./pages/home.page";
-import AboutPage from "./pages/about.page";
-import ProjectPage from "./pages/projects.page";
-import ContactPage from "./pages/contact.page";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import MainLayout from './layouts/main.layout';
+import HomePage from './pages/home.page';
+import AboutPage from './pages/about.page';
+import ProjectPage from './pages/projects.page';
+import ContactPage from './pages/contact.page';
 const App = () => {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: '/',
       element: <MainLayout />,
       children: [
         {
-          path: "/",
+          path: '/',
           element: <HomePage />,
         },
         {
-          path: "about",
+          path: 'about',
           element: <AboutPage />,
         },
         {
-          path: "projects",
+          path: 'projects',
           element: <ProjectPage />,
         },
         {
-          path: "contact",
+          path: 'contact',
           element: <ContactPage />,
         },
       ],
