@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className='col-md-4 d-flex align-items-center justify-content-center'>
           <a
-            href='https://github.com/arifulrony10/arifulrony10'
+            href='https://github.com/imdariful/imdariful'
             target='_blank'
             rel='noopener noreferrer'
             className='text-muted text-decoration-none'
@@ -21,7 +21,7 @@ const Footer = () => {
           <li className='ms-3'>
             <a
               className='text-muted'
-              href='https://github.com/arifulrony10'
+              href='https://github.com/imdariful'
               target='_blank'
               rel='noreferrer'
             >
@@ -40,7 +40,7 @@ const Footer = () => {
           <li className='ms-3'>
             <a
               className='text-muted'
-              href='https://www.linkedin.com/in/arifulrony10'
+              href='https://www.linkedin.com/in/imdariful'
               target='_blank'
             >
               <svg
@@ -58,7 +58,7 @@ const Footer = () => {
           <li className='ms-3'>
             <a
               className='text-muted'
-              href='https://instagram.com/arifulrony10'
+              href='https://instagram.com/imd_ariful'
               target='_blank'
             >
               <svg
@@ -76,7 +76,7 @@ const Footer = () => {
           <li className='ms-3'>
             <a
               className='text-muted'
-              href='https://facebook.com/md.arifulrony10'
+              href='https://facebook.com/imdarifu1'
               target='_blank'
             >
               <svg

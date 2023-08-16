@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ariful Islam</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh.</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arifulrony10" alt="arifulrony10" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=imdariful" alt="imdariful" /></a> </p>
 
-- 🔭 I’m currently working on [blog](https://github.com/arifulrony10/blog)
+- 🔭 I’m currently working on [blog](https://github.com/imdariful/blog)
 
 - 🌱 I’m currently learning **React**
 

@@ -44,7 +44,7 @@
         "stackName": "Bootstrap"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/rick-and-morty-wiki",
+    "souceCodeUrl": "https://github.com/imdariful/rick-and-morty-wiki",
     "liveUrl": "https://rickandmorty-ariful.netlify.app/"
   },
   {
@@ -88,7 +88,7 @@
         "stackName": "MongoDB"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/blog",
+    "souceCodeUrl": "https://github.com/imdariful/blog",
     "liveUrl": ""
   },
   {
@@ -128,7 +128,7 @@
         "stackName": "Bootstrap"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/arifulrony10",
+    "souceCodeUrl": "https://github.com/imdariful/imdariful",
     "liveUrl": "https://ariful.me"
   },
   {
@@ -168,7 +168,7 @@
         "stackName": "React"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/todo",
+    "souceCodeUrl": "https://github.com/imdariful/todo",
     "liveUrl": "https://todo-ariful.netlify.app/"
   },
   {
@@ -204,7 +204,7 @@
         "stackName": "JavaScript"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/tic-tac-toe",
-    "liveUrl": "https://arifulrony10.github.io/tic-tac-toe/"
+    "souceCodeUrl": "https://github.com/imdariful/tic-tac-toe",
+    "liveUrl": "https://imdariful.github.io/tic-tac-toe/"
   }
 ]
