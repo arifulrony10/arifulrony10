@@ -11,7 +11,7 @@
 
 - 💬 Ask me about **React, ExpressJS, JavaScript**
 
-- 📫 How to reach me **ariful.rony10@gmail.com**
+- 📫 How to reach me **imd.ariful@outlook.com**
 
 - 📄 Know about my experiences [https://ariful.tiiny.site/](https://ariful.tiiny.site/)
 
