@@ -1,6 +1,62 @@
 [
   {
     "id": 1,
+    "title": "MedXpress",
+    "image": "https://i.ibb.co/jVw0Ctw/medxpress.jpg",
+    "description": "Welcome to MedXpress, an Angular-based web application designed to streamline the interaction between customers and shops in the medical supply domain.",
+    "bullets": [
+      {
+        "id": 1,
+        "point": "Developed a durable, user-friendly application, prioritizing efficiency."
+      },
+      {
+        "id": 2,
+        "point": "Ensured consistent design coherence for a visually pleasing interface."
+      },
+      {
+        "id": 3,
+        "point": "Implemented secure authentication on both Angular and NestJS."
+      },
+      {
+        "id": 4,
+        "point": "Established a detailed product catalog for informed decision-making."
+      },
+      {
+        "id": 5,
+        "point": "Engineered a seamless cart feature for easy item management."
+      },
+      {
+        "id": 6,
+        "point": "Executed a secure checkout process for a smooth user experience."
+      },
+      {
+        "id": 7,
+        "point": "Introduced an admin panel for efficient order management."
+      },
+      {
+        "id": 8,
+        "point": "Enhanced user experience with Progressive Web App (PWA) functionality."
+      }
+    ],
+    "stacks": [
+      {
+        "id": 1,
+        "stackName": "Angular"
+      },
+      {
+        "id": 2,
+        "stackName": "NestJS"
+      },
+      {
+        "id": 3,
+        "stackName": "MongoDB"
+      }
+    ],
+    "souceCodeUrl": "https://github.com/imdariful/medxpress-client",
+    "liveUrl": "https://mymedxpress.netlify.app/"
+  },
+  {
+    "id": 2,
     "title": "Rick and Morty Wiki",
     "image": "https://i.ibb.co/GHTnX21/rickandmorty-wiki.png",
     "description": "A comprehensive website dedicated to the TV show \"Rick and Morty\" that provides:",
@@ -44,53 +100,10 @@
         "stackName": "Bootstrap"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/rick-and-morty-wiki",
+    "souceCodeUrl": "https://github.com/imdariful/rick-and-morty-wiki",
     "liveUrl": "https://rickandmorty-ariful.netlify.app/"
   },
-  {
-    "id": 2,
-    "title": "MERN Blog",
-    "image": "https://i.ibb.co/vmhxSxb/Work-on-progress.png",
-    "description": "Create a blogging site where one can perform the following actions:",
-    "bullets": [
-      {
-        "id": 1,
-        "point": "Create an account using register module"
-      },
-      {
-        "id": 2,
-        "point": "Write blog using Rich text editor."
-      },
-      {
-        "id": 3,
-        "point": "The blogs can be filtered by author name, date, blog category etc."
-      },
-      {
-        "id": 4,
-        "point": "Can reset password in user forget the password."
-      },
-      {
-        "id": 5,
-        "point": "Admin have all the rights to edit or delete an blog or user."
-      }
-    ],
-    "stacks": [
-      {
-        "id": 1,
-        "stackName": "React"
-      },
-      {
-        "id": 2,
-        "stackName": "Express.js"
-      },
-      {
-        "id": 3,
-        "stackName": "MongoDB"
-      }
-    ],
-    "souceCodeUrl": "https://github.com/arifulrony10/blog",
-    "liveUrl": ""
-  },
+
   {
     "id": 3,
     "title": "Personal Portfolio",
@@ -128,7 +141,7 @@
         "stackName": "Bootstrap"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/arifulrony10",
+    "souceCodeUrl": "https://github.com/imdariful/imdariful",
     "liveUrl": "https://ariful.me"
   },
   {
@@ -168,7 +181,7 @@
         "stackName": "React"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/todo",
+    "souceCodeUrl": "https://github.com/imdariful/todo",
     "liveUrl": "https://todo-ariful.netlify.app/"
   },
   {
@@ -204,7 +217,7 @@
         "stackName": "JavaScript"
       }
     ],
-    "souceCodeUrl": "https://github.com/arifulrony10/tic-tac-toe",
-    "liveUrl": "https://arifulrony10.github.io/tic-tac-toe/"
+    "souceCodeUrl": "https://github.com/imdariful/tic-tac-toe",
+    "liveUrl": "https://imdariful.github.io/tic-tac-toe/"
   }
 ]

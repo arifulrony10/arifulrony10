@@ -14,12 +14,12 @@ nav,
 a {
   font-family: 'Space Grotesk', sans-serif !important;
 }
-
 .heroLink {
   a:hover {
     color: black !important;
   }
 }
+
 @media screen and (min-width: 480px) and (max-width: 720px) {
   .hideOnMobile {
     display: none !important;
